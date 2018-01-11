@@ -10,7 +10,7 @@
     <link href="{% static 'css/site.css' %}" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse home-nav">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar" aria-expanded="false">
@@ -37,7 +37,7 @@
             </div>
         </div>
     </nav>
-    <div class="main">
+    <div>
         {% block contents %}{% endblock %}
     </div>
     <footer></footer>
