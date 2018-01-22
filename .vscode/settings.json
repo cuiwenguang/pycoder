@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/cwg/.pyenv/versions/3.5.4/bin/python3",
+    "python.formatting.provider": "yapf"
+}
